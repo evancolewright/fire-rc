@@ -1,0 +1,15 @@
+{
+  "name": "monorepo",
+  "author": "Evan Wright",
+  "license": "MIT",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:mobile": "cd ./apps/api && yarn start",
+    "start:api": "cd ./apps/api && yarn start"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
